@@ -1,11 +1,18 @@
 import React from 'react';
+import styled from 'styled-components';
+
 
 const Header = () => {
     return (
-        <div>
+        <Container>
             <h1>Kevin's Portfolio</h1>
-        </div>
+        </Container>
     )
 }
 
 export default Header;
+
+const Container = styled.div`
+    text-align: center;
+`
+
