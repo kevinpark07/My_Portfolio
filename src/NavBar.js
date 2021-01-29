@@ -16,11 +16,17 @@ export default NavBar;
 
 const Container = styled.div`
    width: 100%;
-   margin-bottom: 10%;
+   height: 75px;
    margin-top: 2%;
+   background-image: linear-gradient(to bottom left, #0B0C0D, #595C61);
+   
 `
 const Tab = styled.h2`
     float: right;
     display: inline-block; 
     margin-right: 8%; 
+    color: white;
+    font-family: simhei;
 `
+
+// background-color: #0B4F95;
