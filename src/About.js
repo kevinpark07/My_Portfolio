@@ -6,6 +6,8 @@ const About = () => {
     return (
         <Container>
             <ProfileImage alt='profile_image' src={headshot} />
+                <AboutHeader>About Me</AboutHeader>
+                <AboutContent>Hello my name is Kevin Park. Welcome to my page!</AboutContent>
         </Container>
     )
 }
@@ -14,17 +16,29 @@ export default About;
 
 const Container = styled.div`
     border-style: solid;
-    border-color: transparent;
+    border-color: black;
     height: 600px;
     width 100%;
-    background-image: url(https://images.unsplash.com/photo-1563865436914-44ee14a35e4b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
-    background-size:100% 100%;
+    background-image: url(https://images.unsplash.com/flagged/photo-1561023368-08a67ce21a09?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=758&q=80);
+    background-size: 100%;
+`
+
+const AboutHeader = styled.h1`
+    position: absolute;
+    top: 28%;
+    right: 15%;
+`
+
+const AboutContent = styled.p`
+    position: absolute;
+    top: 40%;
+    right: 10%;
 `
 
 const ProfileImage = styled.img`
     display: block;
-    margin-left: auto;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: auto;
     margin-top: 8%;
     height: 350px;
     width: 300px;
@@ -32,3 +46,4 @@ const ProfileImage = styled.img`
     border-color: transparent;
     border-radius: 50%;
 `
+

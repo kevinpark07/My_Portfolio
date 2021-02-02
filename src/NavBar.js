@@ -15,6 +15,7 @@ function NavBar() {
 export default NavBar;
 
 const Container = styled.div`
+    position: sticky;
    width: 100%;
    height: 75px;
    margin-top: 2%;
