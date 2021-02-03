@@ -15,27 +15,24 @@ function NavBar() {
 export default NavBar;
 
 const Container = styled.div`
-    position: sticky;
-    top: 0;
    width: 100%;
    height: 75px;
    margin-top: 2%;
-   background-image: linear-gradient(to bottom left, #0B0C0D, #595C61);
-   opacity: 1;
+   background-image: linear-gradient(to bottom left, #48BAA0, #26E6BA);
 `
 const BlogLink = styled.a`
-    color: white;
+    color: #EE4F08;
     text-decoration: none;
-    opacity: 1;
+    opacity: 1.0;
 `
 
 const Tab = styled.h2`
     float: right;
     display: inline-block; 
     margin-right: 8%; 
-    color: white;
+    color: #EE4F08;
     font-family: simhei;
-    opacity: 1;
+    opacity: 1.0;
 `
 
 // background-color: #0B4F95;
