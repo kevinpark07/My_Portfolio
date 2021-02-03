@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './Header';
 import About from './About';
-import NavBar from './NavBar'
+import NavBar from './NavBar';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <NavBar/>
       <About />
+      <Projects />
     </div>
   );
 }
