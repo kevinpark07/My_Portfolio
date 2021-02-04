@@ -7,7 +7,7 @@ import marvelcomic from './assets/Marvel-Comics-Project.png';
 
 const Projects = () => {
     return (
-        <Container>
+        <Container id="projects_section">
             <ProjectsUl>
                 <ProjectList><a href="https://www.loom.com/share/32590a5fcd05438a87d3478e0c6b1121"><ProjectImage alt="Child Life Project" src={childlife} /></a></ProjectList>
                     <RepoList>

@@ -6,7 +6,7 @@ function NavBar() {
         <Container>
             <Tab>Contact</Tab>
             <Tab><BlogLink href="https://kevinpark-61806.medium.com/">Blogs</BlogLink></Tab>
-            <Tab>Projects</Tab>
+            <Tab><a href="#projects_section">Projects</a></Tab>
             <Tab>About</Tab>
         </Container>
     )
