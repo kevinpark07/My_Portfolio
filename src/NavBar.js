@@ -4,10 +4,10 @@ import styled from 'styled-components'
 function NavBar() {
     return (
         <Container>
-            <Tab>Contact</Tab>
-            <Tab><BlogLink href="https://kevinpark-61806.medium.com/">Blogs</BlogLink></Tab>
-            <Tab><a href="#projects_section">Projects</a></Tab>
-            <Tab>About</Tab>
+            <Tab><Link href="#contact_section">Contact</Link></Tab>
+            <Tab><Link href="https://kevinpark-61806.medium.com/">Blogs</Link></Tab>
+            <Tab><Link href="#projects_section">Projects</Link></Tab>
+            <Tab><Link href="#about_section">About</Link></Tab>
         </Container>
     )
 }
@@ -15,15 +15,14 @@ function NavBar() {
 export default NavBar;
 
 const Container = styled.div`
-   width: 100%;
+   width: 100.5%;
    height: 75px;
-   margin-top: 2%;
    background-image: linear-gradient(to bottom left, #48BAA0, #26E6BA);
+
 `
-const BlogLink = styled.a`
+const Link = styled.a`
     color: #EE4F08;
     text-decoration: none;
-    opacity: 1.0;
 `
 
 const Tab = styled.h2`

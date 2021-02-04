@@ -35,7 +35,7 @@ const Container = styled.div`
     background-image: url(https://images.unsplash.com/photo-1596079890744-c1a0462d0975?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
     background-size: 100%;
     width: 100%;
-    height: 850px;
+    height: 900px;
 `
 
 const ProjectsUl = styled.ul`

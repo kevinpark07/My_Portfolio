@@ -6,7 +6,7 @@ import linkedin from './assets/linkedin_icon.png';
 
 const Contact = () => {
     return (
-        <Container>
+        <Container id="contact_section">
             <Header>Contact</Header>
             <p>Email: <a href="mailto:kevinprk291@gmail.com">kevinpark291@gmail.com</a></p>
             <a href="https://github.com/kevinpark07/"><SocialMedia alt="GitHub profile" src={github}/></a>
