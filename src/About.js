@@ -34,8 +34,6 @@ const Container = styled.div`
     width 100%;
     background-image: url(https://images.unsplash.com/photo-1598846021811-c23fa9263bb7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
     background-size: 100% 100%;
-    border-style: inset;
-    border-color: white;
     margin-top: 10%;
     font-family: American Typewriter;
 `

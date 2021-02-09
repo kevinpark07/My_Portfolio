@@ -15,12 +15,16 @@ function NavBar() {
 export default NavBar;
 
 const Container = styled.div`
-   width: 100.5%;
+    width: 100%;
    height: 75px;
+   top: 0%;
 `
+
 const Link = styled.a`
-    color: black;
+    color: #48BAA0;
+    text-shadow: 2px 2px #4B68CE;
     text-decoration: none;
+    font-size: 23pt;
 `
 
 const Tab = styled.h2`

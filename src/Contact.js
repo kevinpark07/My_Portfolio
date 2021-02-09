@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <Container id="contact_section">
             <Header>Contact Me</Header>
-            <p><b>Email:</b> <a href="mailto:kevinprk291@gmail.com">kevinpark291@gmail.com</a></p>
+            <p><a href="mailto:kevinprk291@gmail.com">kevinpark291@gmail.com</a></p>
             <a href="https://github.com/kevinpark07/"><SocialMedia alt="GitHub profile" src={github}/></a>
             <a href="https://www.linkedin.com/in/kevinpark07/"><SocialMedia alt="LinkedIn profile" src={linkedin}/></a>
             <a href="https://www.facebook.com/kevinpark07/"><SocialMedia alt="Facebook profile" src={facebook}/></a>
@@ -26,7 +26,8 @@ const Container = styled.div`
 `
 
 const Header = styled.h1`
-    top:0;
+    color: #48BAA0;
+    text-shadow: 2px 2px #4B68CE;
     text-decoration: underline;
 `
 
@@ -34,5 +35,5 @@ const SocialMedia = styled.img`
     display: inline-block;
     width: 50px;
     height: 50px;
-    margin-right: 2%;
+    margin-right: 1%;
 `
