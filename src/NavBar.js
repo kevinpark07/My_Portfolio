@@ -21,8 +21,8 @@ const Container = styled.div`
 `
 
 const Link = styled.a`
-    color: #48BAA0;
-    text-shadow: 2px 2px #4B68CE;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #5E9EE7;
     text-decoration: none;
     font-size: 23pt;
 `

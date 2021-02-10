@@ -26,8 +26,8 @@ const Container = styled.div`
 `
 
 const Header = styled.h1`
-    color: #48BAA0;
-    text-shadow: 2px 2px #4B68CE;
+    color: white;
+    text-shadow: 2px 2px #5E9EE7;
     text-decoration: underline;
 `
 

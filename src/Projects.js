@@ -38,7 +38,7 @@ const Projects = () => {
 export default Projects;
 
 const Container = styled.div`
-    background-image: url(https://images.unsplash.com/photo-1459695452562-46cc57bef5f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
+    background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
     background-size: 100% 100%;
     width: 100%;
     height: 1000px;
@@ -54,7 +54,8 @@ const ProjectsUl = styled.ul`
 `
 
 const ProjectLabel = styled.h4`
-    color: #386191;
+    color: white;
+    text-shadow: 2px 2px #5E9EE7;
     margin-top: 0%;
 `
 
@@ -68,7 +69,7 @@ const Repo = styled.li`
     margin-right: 2%;
 `
 const RepoLink = styled.a`
-    color: #DE7807;
+    color: #EE1E45;
     text-decoration: underline;
 `
 

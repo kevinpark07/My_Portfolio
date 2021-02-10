@@ -32,7 +32,7 @@ export default About;
 const Container = styled.div`
     height: 600px;
     width 100%;
-    background-image: url(https://images.unsplash.com/photo-1598846021811-c23fa9263bb7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
+    background-image: url(https://images.unsplash.com/photo-1569172122301-bc5008bc09c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
     background-size: 100% 100%;
     margin-top: 10%;
     font-family: American Typewriter;
@@ -41,7 +41,7 @@ const Container = styled.div`
 const AboutContainer = styled.div`
     position: absolute;
     background-color: #DCDACB;
-    opacity: 0.85;
+    opacity: 0.90;
     height: 325px;
     box-shadow: 10px 10px grey;
     right: 12.5%;
@@ -58,6 +58,7 @@ const AboutHeader = styled.h1`
     font-family: American Typewriter;
     text-decoration: underline;
     color: white;
+    text-shadow: 2px 2px #5E9EE7;
 `
 
 const AboutContent = styled.p`
