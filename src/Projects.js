@@ -8,6 +8,7 @@ import marvelcomic from './assets/Marvel-Comics-Project.png';
 const Projects = () => {
     return (
         <Container id="projects_section">
+            <Header>Projects</Header>
             <ProjectsUl>
                 <ProjectList><a href="https://www.loom.com/share/32590a5fcd05438a87d3478e0c6b1121"><ProjectImage alt="Child Life Project" src={childlife} /></a></ProjectList>
                 <br></br>
@@ -38,12 +39,18 @@ const Projects = () => {
 export default Projects;
 
 const Container = styled.div`
-    background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
-    background-size: 100% 100%;
     width: 100%;
-    height: 1000px;
-    margin-top: 10%;
+    height: auto;
     font-family: American Typewriter;
+    margin-top: 0%;
+`
+const Header = styled.h1`
+    padding-top: 5%;
+    text-decoration: underline;
+    color: white;
+    font-size: 40pt;
+    text-shadow: 2px 2px black;
+    text-align: center;
 `
 
 const ProjectsUl = styled.ul`
@@ -55,13 +62,13 @@ const ProjectsUl = styled.ul`
 
 const ProjectLabel = styled.h4`
     color: white;
-    text-shadow: 2px 2px #5E9EE7;
+    text-shadow: 2px 2px black;
+    font-size: 20pt;
     margin-top: 0%;
 `
 
 const RepoList = styled.ul`
     list-style-type: none;
-    margin-top: 2%;
 `
 
 const Repo = styled.li`
@@ -69,8 +76,9 @@ const Repo = styled.li`
     margin-right: 2%;
 `
 const RepoLink = styled.a`
-    color: #EE1E45;
+    color: white;
     text-decoration: underline;
+    background-color: black;
 `
 
 const ProjectList = styled.li`
@@ -81,8 +89,8 @@ const ProjectList = styled.li`
 `
 
 const ProjectImage = styled.img`
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
     border-style: solid;
     border-color: white;
     border-width: 5px;

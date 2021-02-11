@@ -21,8 +21,8 @@ const Container = styled.div`
 `
 
 const Link = styled.a`
-    color: #FFFFFF;
-    text-shadow: 2px 2px #5E9EE7;
+    color: white;
+    text-shadow: 2px 2px black;
     text-decoration: none;
     font-size: 23pt;
 `
@@ -33,7 +33,6 @@ const Tab = styled.h2`
     margin-right: 8%; 
     font-family: American Typewriter;
     opacity: 1.0;
-    text-decoration: underline;
 `
 
 // background-color: #0B4F95;
